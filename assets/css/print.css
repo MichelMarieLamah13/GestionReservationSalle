@@ -1,0 +1,67 @@
+* {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+.sidenav,
+.header,
+i,
+.action,
+button{
+    display: none;
+}
+
+.header,
+img,
+h1{
+    margin-bottom: 0px;
+    border: none;
+    text-align: center;
+}
+a[href*=".php"]{
+    text-decoration: none;
+}
+
+a[href^="http:"]::after {
+    content: "[" attr(href) "]";
+    color: blue;
+}
+
+@page {
+    margin: .5cm;
+}
+
+@page :first {
+    margin-top: 2cm;
+}
+
+h2,
+ul {
+    page-break-after: avoid;
+}
+
+p,
+ul {
+    orphans: 3;
+    widows: 3;
+    font-size: 11pt;
+}
+
+table{
+    font-family: monospace;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+

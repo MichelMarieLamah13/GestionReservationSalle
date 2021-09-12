@@ -1,0 +1,37 @@
+.info-danger,
+.info-success,
+.info-info,
+.info-warning{
+    margin-bottom: 15px;
+    padding: 4px 12px;
+}
+
+.info-danger a,
+.info-success a,
+.info-info a,
+.info-warning a{
+    text-decoration: none;
+}
+
+
+.info-danger {
+    background-color: #e3c1c1;
+    border-left: 6px solid #f44336;
+}
+
+.info-success {
+    background-color: #bcddbc;
+    border-left: 6px solid #4CAF50;
+}
+
+.info-info {
+    background-color: #c6cbd3;
+    border-left: 6px solid #2196F3;
+}
+
+
+.info-warning {
+    background-color: #e2e2b0;
+    border-left: 6px solid #ffeb3b;
+}
+

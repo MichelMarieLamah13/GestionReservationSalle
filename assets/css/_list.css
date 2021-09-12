@@ -1,0 +1,31 @@
+table.liste {
+    font-family: monospace;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #588c7e;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.liste th,
+.liste td {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.liste th {
+    background-color: #588c7e;
+    color: white;
+}
+
+.liste tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.liste td a {
+    text-decoration: none;
+    color: #588c7e;
+}
+
